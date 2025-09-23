@@ -1,0 +1,13 @@
+<h1 id="one" onclick="deleteitem(event)">One</h1>
+<h2 id="two" onclick="deleteitem(event)">Two</h2>
+<h1 id="three" onclick="deleteitem(event)">Three</h1>
+<h2 id="four" onclick="deleteitem(event)">Four</h2>
+<h1 id="five" onclick="deleteitem(event)">Five</h1>
+
+<script>
+    var one=document.getElementById("one")
+    function deleteitem(event)
+    {
+        event.target.remove()
+    }
+</script>
